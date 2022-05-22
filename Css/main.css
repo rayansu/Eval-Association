@@ -1,0 +1,33 @@
+
+
+.logo{
+ max-width: 200px;
+   
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: rgb(204 146 25);
+    font-size: 18px;
+    
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+     text-decoration: underline;
+     color: rgba(53, 156, 125, 0.775);
+     transition:0.9s;
+     font-size: 20px;
+     -webkit-transition:0.9s;
+     -moz-transition:0.9s;
+     -ms-transition:0.9s;
+     -o-transition:0.9s;
+}
+
+.landing{
+    background-image: url(../Photos/rachid.jpg);
+    background-position: center;
+    background-size: cover;
+    height:calc(100vh - 100px);
+}
+
